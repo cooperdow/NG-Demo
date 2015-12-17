@@ -1,0 +1,31 @@
+<div class="jumbotron text-center col-lg-12">
+	<h1 class="">Summer Equipment</h1>
+</div>
+	<div class="jumbotron text-center col-lg-6" ng-repeat="sumner in summer">
+    <img ng-src="{{sumner.image}}">
+    <h3>{{sumner.name}}</h3>
+    <h4>{{sumner.cost}}</h4>
+    <p>{{sumner.description}}</p>
+    </div>
+
+<!--
+<img ng-src="{{sumner.image}}" onclick="modal()">
+<!-- Modal --!> 
+<div id="itemDetails" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+-->
+
+    <!-- Modal content-->
+<!--
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">{{sumner.name}}</h4>
+      </div>
+      <div class="modal-body">
+        <h6>Description:</h6>
+        <p>{{sumner.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>-->

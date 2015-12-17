@@ -1,5 +1,13 @@
 <div class="jumbotron text-center">
-	<h1>Angular Demo</h1>
-	
-	<p>{{ message }}</p>
+	<h2>Summer Winter Retailer</h2>
+</div>
+
+<h1>Upcoming Expeditions</h1>
+<div ng-repeat="expedition in images">
+    
+    <h4>{{expedition.expedition}}</h4>
+    <h4>{{expedition.days}}</h4>
+    <img ng-src="{{expedition.image}}">
+
+    </p>
 </div>

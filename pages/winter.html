@@ -1,0 +1,9 @@
+<div class="jumbotron text-center">
+	<h1>Winter Equipment</h1>
+</div>
+    <div class="jumbotron text-center col-lg-6" ng-repeat="winterz in winter">
+        <img ng-src="{{winterz.image}}">
+        <h3>{{winterz.name}}</h3>
+        <h4>{{winterz.cost}}</h4>
+        <p>{{winterz.description}}</p>
+    </div>
