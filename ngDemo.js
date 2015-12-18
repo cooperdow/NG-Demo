@@ -51,12 +51,12 @@ ngDemo.controller('summerController', function($scope)
     {
     $scope.summer=
         [
-        {
+   /*     {
         image: "images/tent1.jpg",
         cost: "$350",
         name: "Big Agnes Fly Creek UL 2 Tent",
         description: "An ultralight, 3-season tent for 2 that weighs in at 1 lb. 15 oz., this tent grants protection from bugs and rain at a weight one person can easily carry alone."
-        },
+        },*/
         {
         image:"images/bike1.jpg",
         cost:"$3500",
