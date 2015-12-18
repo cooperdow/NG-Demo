@@ -1,13 +1,13 @@
-<div class="jumbotron text-center">
-	<h2>Summer Winter Retailer</h2>
+<div  style="background-color: #481717; color: #9C9A99" class="jumbotron text-center">
+    <h1>Summer Winter Retailer</h1>
 </div>
-
-<h1>Upcoming Expeditions</h1>
-<div ng-repeat="expedition in images">
+<div class="text-center">
+<h2 style="color: red">Upcoming Expeditions</h2>
+<div class="panel" ng-repeat="expedition in images">
     
     <h4>{{expedition.expedition}}</h4>
     <h4>{{expedition.days}}</h4>
     <img ng-src="{{expedition.image}}">
-
-    </p>
+    <br>
+    </div>
 </div>
